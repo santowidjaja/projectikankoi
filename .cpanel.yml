@@ -1,0 +1,23 @@
+---
+deployment:
+  tasks:
+  - export DEPLOYPATH=/home/u1095225/public_html/ProjectIkanKoi
+  - /bin/cp -R app $DEPLOYPATH
+  - /bin/cp -R bootstrap $DEPLOYPATH
+  - /bin/cp -R config $DEPLOYPATH
+  - /bin/cp -R database $DEPLOYPATH
+  - /bin/cp -R public $DEPLOYPATH
+  - /bin/cp -R resources $DEPLOYPATH
+  - /bin/cp -R routes $DEPLOYPATH
+  - /bin/cp -R storage $DEPLOYPATH
+  - /bin/cp -R tests $DEPLOYPATH
+  - /bin/cp .env.ecample $DEPLOYPATH
+  - /bin/cp .gitignore $DEPLOYPATH
+  - /bin/cp composer.json $DEPLOYPATH
+  - /bin/cp composer.lock $DEPLOYPATH
+  - /bin/cp CONTRIBUTING.md $DEPLOYPATH
+  - /bin/cp LICENSE $DEPLOYPATH
+  - /bin/cp phpunit $DEPLOYPATH
+  - /bin/cp README.md $DEPLOYPATH
+  - /bin/cp server.php $DEPLOYPATH
+  - /bin/cp webpack.mix $DEPLOYPATH
